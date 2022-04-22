@@ -103,28 +103,15 @@ inquirer
     },
   ])
   .then((response) => {
-    const licenseBadge = getLicenseBadge(response.license);
-    const markdown = generateMarkDown(response, licenseBadge);
+    const markdown = generateMarkDown(response);
     fs.writeFile("generatedREADME.md", markdown, (error) => {
       error ? console.log(error) : console.log("Successfully created file: generatedREADME.md");
     });
   });
 
-  var testResponse = {
-    title: 'README Generator',
-    description: 'A program to quickly generate a README based on user commandline input ',
-    install: 'Clone the repository, run "npm i inquirer", run "index.js"',
-    usage: 'Refer to description',
-    contributionGuidelines: 'Contribute if you like',
-    testInstructions: 'Your guess is as good as mine',
-    license: 'MIT License',
-    githubUsername: 'JakeK456',
-    emailAddress: 'jakek8421@gmail.com'
-  }
-
-  function generateMarkDown(response, licenseBadge){
+  function generateMarkDown(response){
     var markdown = 
-`# ${response.title} ${licenseBadge}
+`# ${response.title} ${response.license}
 
 ## Description
 

@@ -1,8 +1,8 @@
-# README Generator [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+# README Generator [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
 
-A program to quickly generate a README based on user commandline input.
+A program to quickly generate a README based on user commandline input
 
 ## Table of Contents
 
@@ -19,19 +19,19 @@ Clone the repository, run "npm i", run "index.js"
 
 ## Usage
 
-Refer to description.
+refer to description
 
 ## License
 
-GNU General Public License v2.0
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Contributing
 
-Contribute if you like
+contribute if you like
 
 ## Tests
 
-Your guess is as good as mine.
+your guess is as good as mine
 
 ## Questions
 
